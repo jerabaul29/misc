@@ -1,6 +1,8 @@
 #include <Arduino.h>
 
 #include "lib_1.h"
+#include "lib_2.h"
+#include "lib_3.h"
 
 void setup() {
   // put your setup code here, to run once:
@@ -10,7 +12,8 @@ void setup() {
 
   Serial.println(F("BOOTED"));
   print1();
-
+  print2();
+  print3();
 }
 
 void loop() {
